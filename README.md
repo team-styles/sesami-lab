@@ -1,7 +1,7 @@
 ## はじめに
 「おともだちちょう」作成用リポジトリです。
 Next.jsを主に使っており、スタイルにはTailwindCssを使用しています。
-データベースについては検討中。
+データベースについてはPostgreSQLを検討中。
 
 ## 開発にあたって
 ### 環境
@@ -34,6 +34,9 @@ PRで対応した内容を具体的に下記、必要であれば対応チケッ
 
 - TailwindCSS チートシート
 https://nerdcave.com/tailwind-cheat-sheet
+
+- PrismaとPostgreSQLの接続、運用
+https://qiita.com/tomohiko_ohhashi/items/da804ed1f5870c9ce52d#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB
 
 
 
