@@ -23,7 +23,7 @@ yarn dev
 ```
 npx prisma studio
 ```
--> access: https://:localhost:5555/
+-> access: https://localhost:5555/
 prismaが起動し、DBにアクセス
 
 ### 環境変数について
