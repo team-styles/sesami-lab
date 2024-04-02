@@ -1,7 +1,7 @@
 ## はじめに
 「おともだちちょう」作成用リポジトリです。
 Next.jsを主に使っており、スタイルにはTailwindCssを使用しています。
-データベースとしてPlanetScaleを使用しています。
+データベースについては検討中。
 
 ## 開発にあたって
 ### 環境
@@ -20,11 +20,6 @@ yarn dev
 -> access: https://localhost:3000/
 ローカルサーバーが立ち上がり、Webサイトにアクセス
 
-```
-npx prisma studio
-```
--> access: https://localhost:5555/
-prismaが起動し、DBにアクセス
 
 ### 環境変数について
 
@@ -40,8 +35,6 @@ PRで対応した内容を具体的に下記、必要であれば対応チケッ
 - TailwindCSS チートシート
 https://nerdcave.com/tailwind-cheat-sheet
 
-- PrismaとPlanetScaleの接続
-https://zenn.dev/nbr41to/articles/adabca83b2e6ea
 
 
 
