@@ -1,26 +1,29 @@
+import { AddButton } from "@/components/AddButton";
+import { FriendCard } from "@/components/FriendCard";
+import { Header } from "@/components/Header";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>おともだちちょう</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="text-center mt-[41px]">
-        <p className="font-pupupu text-8xl">りょこう</p>
-        <p className="font-pupupu text-7xl">ひつじゅひん</p>
+      <Header />
+      <AddButton />
+      <div className="flex justify-center bg-primaryGreen">
+        <div className="grid grid-cols-4 gap-10">
+          <FriendCard name="今永ゆうと" />
+          <FriendCard name="岩本はるき" />
+          <FriendCard name="今永ゆうと" />
+          <FriendCard name="岩本はるき" />
+          <FriendCard name="今永ゆうと" />
+          <FriendCard name="岩本はるき" />
+          <FriendCard name="今永ゆうと" />
+          <FriendCard name="岩本はるき" />
+        </div>
       </div>
-      <div className="justify-center flex mt-[17px]">
-        <Image src="/logo.png" alt="バックパック" width="393" height="385" />
-      </div>
-
-      <a className="justify-center flex mt-[58.54px] " href="./selectPage">
-        <p className="text-center font-pupupu bg-gray-400 p-10 w-80 rounded-md text-3xl">
-          にもつをとりだす
-        </p>
-      </a>
     </>
   );
 }

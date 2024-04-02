@@ -5,7 +5,6 @@ export default function Home() {
   const [authorsData, setAuthorsData] = useState([]);
   useEffect(() => {
     fetch("/api/authors").then((res) => res.json());
-    // .then(console.log);
   }, []);
 
   const handleClick = async () => {
