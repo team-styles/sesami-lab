@@ -34,7 +34,7 @@ prismaが起動し、DBにアクセス
 
 
 ### PullRequestについて
-PullRequestする場合、githubのreviewerを `@takuma`(青木)を指定してください。
+PullRequestする場合、githubのreviewerを `@Takuma1221`(青木)を指定してください。
 PRで対応した内容を具体的に下記、必要であれば対応チケットやスクリーンショットを貼り付けてください。
 
 - TailwindCSS チートシート
