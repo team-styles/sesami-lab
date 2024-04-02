@@ -45,10 +45,3 @@ https://zenn.dev/nbr41to/articles/adabca83b2e6ea
 
 
 
-
-
-
-
-
-
-npx prisma studio で起動
